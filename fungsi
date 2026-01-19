@@ -1,0 +1,13 @@
+def cek_ganjil_genap():
+    try:
+        angka = int(input("Masukkan sebuah angka: "))
+        
+        if angka % 2 == 0:
+            print(f"{angka} adalah bilangan GENAP")
+        else:
+            print(f"{angka} adalah bilangan GANJIL")
+            
+    except ValueError:
+        print("Input tidak valid! Harap masukkan angka bulat.")
+
+cek_ganjil_genap()
